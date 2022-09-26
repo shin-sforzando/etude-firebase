@@ -1,9 +1,9 @@
-# next-boilerplate
+# etude-firebase
 
 <!-- Badges -->
 
-[![Last Commit](https://img.shields.io/github/last-commit/shin-sforzando/next-boilerplate)](https://github.com/shin-sforzando/next-boilerplate/graphs/commit-activity)
-[![CI](https://github.com/shin-sforzando/next-boilerplate/actions/workflows/ci.yml/badge.svg)](https://github.com/shin-sforzando/next-boilerplate/actions/workflows/ci.yml)
+[![Last Commit](https://img.shields.io/github/last-commit/shin-sforzando/etude-firebase)](https://github.com/shin-sforzando/etude-firebase/graphs/commit-activity)
+[![CI](https://github.com/shin-sforzando/etude-firebase/actions/workflows/ci.yml/badge.svg)](https://github.com/shin-sforzando/etude-firebase/actions/workflows/ci.yml)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
@@ -15,20 +15,18 @@
 
 <!-- Synopsis -->
 
-**next-boilerplate** is a template for Next.js.
+Etude for Firebase w/ Next.js.
 
 ## **Use this template**
 
-- [ ] Replace the string `shin-sforzando` with the actual project owner
-- [ ] Replace the string `next-boilerplate` with the actual project name
-- [ ] Create an issue `#1` for assets
+- [x] Replace the string `shin-sforzando` with the actual project owner
+- [x] Replace the string `etude-firebase` with the actual project name
+- [x] Create an issue `#1` for assets
 - [ ] `yarn install` to install dependencies
-- [ ] Check the [repository secrets](https://github.com/shin-sforzando/next-boilerplate/settings/secrets/actions)
+- [ ] Check the [repository secrets](https://github.com/shin-sforzando/etude-firebase/settings/secrets/actions)
   - [ ] `git secret reveal` to reveal secrets
-  - [ ] Set `CHROMATIC_PROJECT_TOKEN` for Chromatic
 - [ ] Prepare [Vercel](https://vercel.com/)
-- [ ] Prepare [Chromatic](https://www.chromatic.com/) for Storybook
-- [ ] Integrate with Slack: `/github subscribe shin-sforzando/next-boilerplate reviews comments branches commits:*`
+- [ ] Integrate with Slack: `/github subscribe shin-sforzando/etude-firebase reviews comments branches commits:*`
 - [ ] **Delete this section!**
 
 ----
