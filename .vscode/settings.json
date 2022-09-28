@@ -23,7 +23,10 @@
   "cSpell.words": [
     "chromaui",
     "firebaseui",
+    "Firestore",
+    "fonts-noto",
     "stylelint",
-    "tailwindcss"
+    "tailwindcss",
+    "vitest"
   ]
 }
