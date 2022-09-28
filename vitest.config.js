@@ -1,7 +1,6 @@
 import react from '@vitejs/plugin-react'
 import tsconfigPaths from 'vite-tsconfig-paths'
 import { defineConfig } from 'vitest/config'
-import GithubActionsReporter from 'vitest-github-actions-reporter'
 
 export default defineConfig({
   plugins: [react(), tsconfigPaths()],
@@ -18,7 +17,7 @@ export default defineConfig({
     ],
     coverage: {
       include: ['src/**/*.{js,jsx,ts,tsx}'],
-      reporter: process.env.GITHUB_ACTIONS ? new GithubActionsReporter() : 'html',
+      reporter: process.env.GITHUB_ACTIONS ? ['text', 'json-summary', 'json'] : 'html',
     },
   },
 })

@@ -24,7 +24,7 @@
     "chromaui",
     "firebaseui",
     "Firestore",
-    "font-noto",
+    "fonts-noto",
     "stylelint",
     "tailwindcss",
     "vitest"

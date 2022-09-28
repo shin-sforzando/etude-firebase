@@ -32,6 +32,9 @@ jobs:
         run: PLAYWRIGHT_BROWSERS_PATH=0 npx playwright install --with-deps
       - name: Test using Vitest
         run: yarn test:vitest
+      - name: 'Report Coverage'
+        if: always() # Also generate the report if tests are failing
+        uses:  davelosert/vitest-coverage-report-action@v1
       - name: Test using Playwright
         run: PLAYWRIGHT_BROWSERS_PATH=0 yarn test:e2e
       - name: Upload test results
