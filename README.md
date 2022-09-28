@@ -58,7 +58,6 @@ Etude for Firebase w/ Next.js.
   - ESLint
   - Prettier
   - Stylelint
-  - Jest
   - Playwright
   - Storybook
 - Tailwind CSS v3+
@@ -97,13 +96,9 @@ $ yarn run
    - stylelint
       stylelint --fix './**/*.{css,scss,sass}'
    - test
-      yarn test:jest && yarn test:e2e
+      yarn test:e2e
    - test:e2e
       playwright test
-   - test:jest
-      jest --updateSnapshot
-   - test:watch
-      jest --watchAll
 ```
 
 ### Setup
@@ -128,7 +123,7 @@ CHROMATIC_PROJECT_TOKEN=xxxxxxxxxxxxxxxx
 
 ### Test
 
-To test using Jest, `yarn test:jest`.
+To test using (T. B. D.), `yarn test:(T. B. D.)`.
 
 To test using Playwright, `yarn test:e2e`.
 
