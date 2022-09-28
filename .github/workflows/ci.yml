@@ -30,8 +30,8 @@ jobs:
         run: PLAYWRIGHT_BROWSERS_PATH=0 yarn install
       - name: Install Playwright
         run: PLAYWRIGHT_BROWSERS_PATH=0 npx playwright install --with-deps
-      - name: Test using Jest
-        run: yarn test:jest
+      - name: Test using Vitest
+        run: yarn test:vitest
       - name: Test using Playwright
         run: PLAYWRIGHT_BROWSERS_PATH=0 yarn test:e2e
       - name: Upload test results

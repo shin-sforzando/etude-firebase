@@ -1,3 +1,5 @@
+import '@/libs/Firebase/firebase'
+
 import { getApp } from 'firebase/app'
 import { getAuth } from 'firebase/auth'
 import type { NextPage } from 'next'

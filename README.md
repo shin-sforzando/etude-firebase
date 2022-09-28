@@ -76,7 +76,7 @@ $ yarn run
    - chromatic
       npx chromatic --project-token=$CHROMATIC_PROJECT_TOKEN
    - dev
-      next dev
+      NODE_OPTIONS='--inspect' next dev
    - hide
       git secret hide
    - lint
@@ -96,9 +96,11 @@ $ yarn run
    - stylelint
       stylelint --fix './**/*.{css,scss,sass}'
    - test
-      yarn test:e2e
+      yarn test:vitest && yarn test:e2e
    - test:e2e
       playwright test
+   - test:vitest
+      vitest run --update --coverage
 ```
 
 ### Setup
